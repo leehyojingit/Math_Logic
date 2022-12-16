@@ -388,12 +388,12 @@
             // 
             this.lb_timeout.AutoSize = true;
             this.lb_timeout.BackColor = System.Drawing.Color.Green;
-            this.lb_timeout.Font = new System.Drawing.Font("Microsoft Sans Serif", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_timeout.Location = new System.Drawing.Point(1584, 667);
+            this.lb_timeout.Font = new System.Drawing.Font("Microsoft Sans Serif", 39.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_timeout.Location = new System.Drawing.Point(1577, 542);
             this.lb_timeout.Name = "lb_timeout";
-            this.lb_timeout.Size = new System.Drawing.Size(252, 76);
+            this.lb_timeout.Size = new System.Drawing.Size(259, 61);
             this.lb_timeout.TabIndex = 6;
-            this.lb_timeout.Text = "timeout";
+            this.lb_timeout.Text = "Time_Out";
             // 
             // pgbar
             // 
@@ -408,6 +408,7 @@
             this.panel1.BackColor = System.Drawing.Color.Green;
             this.panel1.Controls.Add(this.pb2);
             this.panel1.Controls.Add(this.pb1);
+            this.panel1.Controls.Add(this.lb_timeout);
             this.panel1.Controls.Add(this.tb_question);
             this.panel1.Location = new System.Drawing.Point(7, 142);
             this.panel1.Name = "panel1";
@@ -455,7 +456,6 @@
             this.ClientSize = new System.Drawing.Size(1890, 1037);
             this.Controls.Add(this.pgbar);
             this.Controls.Add(this.p_image);
-            this.Controls.Add(this.lb_timeout);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bt_ans);
             this.Controls.Add(this.tb_ans);
