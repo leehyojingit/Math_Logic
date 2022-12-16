@@ -33,9 +33,9 @@ namespace Math_Logic
         public Form1()
         {
             InitializeComponent();
-            cb_math.Items.Add("덧셈");
-            cb_math.Items.Add("뺄셈");
-            cb_math.Items.Add("곱셈");
+            cb_math.Items.Add("덧 셈");
+            cb_math.Items.Add("뺄 셈");
+            cb_math.Items.Add("곱 셈");
             cb_math.Items.Add("나눗셈");
             cb_math.Items.Add("주사위");
 
