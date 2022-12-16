@@ -42,7 +42,7 @@ namespace Math_Logic
             tb_cor_num.Text = cor_num.ToString();
             tb_ng_num.Text = wrong_num.ToString();
 
-            timer1.Interval = 1000;            
+            timer1.Interval = 1500;            
             timer1.Tick += new EventHandler(updateHandler);
 
             pgbar.Maximum = 100;
