@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.Button btn_schedule;
             this.tb_question = new System.Windows.Forms.TextBox();
             this.p_control = new System.Windows.Forms.Panel();
             this.cb_customnum = new System.Windows.Forms.CheckBox();
@@ -63,6 +64,8 @@
             this.pb2 = new System.Windows.Forms.PictureBox();
             this.pb1 = new System.Windows.Forms.PictureBox();
             this.p_image = new System.Windows.Forms.Panel();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            btn_schedule = new System.Windows.Forms.Button();
             this.p_control.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -70,6 +73,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // btn_schedule
+            // 
+            btn_schedule.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            btn_schedule.Location = new System.Drawing.Point(367, 17);
+            btn_schedule.Name = "btn_schedule";
+            btn_schedule.Size = new System.Drawing.Size(304, 45);
+            btn_schedule.TabIndex = 18;
+            btn_schedule.Text = "시간표 보기";
+            btn_schedule.UseVisualStyleBackColor = true;
+            btn_schedule.Click += new System.EventHandler(this.btn_schedule_Click);
             // 
             // tb_question
             // 
@@ -90,6 +104,7 @@
             // p_control
             // 
             this.p_control.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.p_control.Controls.Add(btn_schedule);
             this.p_control.Controls.Add(this.cb_customnum);
             this.p_control.Controls.Add(this.label4);
             this.p_control.Controls.Add(this.panel3);
@@ -445,6 +460,12 @@
             this.p_image.Size = new System.Drawing.Size(200, 115);
             this.p_image.TabIndex = 5;
             // 
+            // imageList1
+            // 
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -453,7 +474,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.BackgroundImage = global::Math_Logic.Properties.Resources.bgr1;
-            this.ClientSize = new System.Drawing.Size(1890, 1037);
+            this.ClientSize = new System.Drawing.Size(1890, 1057);
             this.Controls.Add(this.pgbar);
             this.Controls.Add(this.p_image);
             this.Controls.Add(this.label1);
@@ -519,6 +540,7 @@
         private System.Windows.Forms.TextBox tb_b_min;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ImageList imageList1;
     }
 }
 

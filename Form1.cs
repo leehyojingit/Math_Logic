@@ -318,5 +318,11 @@ namespace Math_Logic
             
 
         }
+
+        private void btn_schedule_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
+        }
     }
 }
